@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Pokemon} from '../app/pokemon'
 import {POKEMONS} from '../app/shared/pokemonList'
-import {} from '../app/shared/border-card.directive'
 
 
 @Component({
@@ -22,7 +21,6 @@ export class AppComponent implements OnInit {
 
   selectPokemon(pokemon) : void{
 
-
-
+    alert("le pokemon choisi est : "+pokemon.name)
   }
 }
