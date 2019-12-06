@@ -8,19 +8,7 @@ import {POKEMONS} from '../app/shared/pokemonList'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'APPLICATION DE POKEMON';
-  pokemons : Pokemon[];
 
-  ngOnInit() : void {
-
-    this.pokemons = POKEMONS
-
-  }
-
-
-  selectPokemon(pokemon) : void{
-
-    alert("le pokemon choisi est : "+pokemon.name)
-  }
 }
