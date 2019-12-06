@@ -1,7 +1,10 @@
 ![Screenshot](src/assets/pokemons.png)
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c16f726702b05fa0f089b1e7a70218413e0a14dc
 # PokemonApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
